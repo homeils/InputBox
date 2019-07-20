@@ -77,11 +77,14 @@ public class InputBox extends ConstraintLayout implements View.OnClickListener {
             if (titleColor != Color.rgb(255, 255, 255))
                 title.setTextColor(titleColor);
             /**
-             * 输入框字体大小
+             * 输入框字体属性
              */
             int inputSize = typedArray.getInt(R.styleable.InputBox_input_size, 0);
             if (inputSize != 0)
                 input.setTextSize(inputSize);
+            int inputColor = typedArray.getColor(R.styleable.InputBox_input_color, Color.rgb(192, 192, 192));      //标题字体颜色
+            if (inputColor != Color.rgb(255, 255, 255))
+                input.setTextColor(inputColor);
             /**
              * 输入框提示
              */
