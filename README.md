@@ -29,6 +29,7 @@ dependencies {
     app:ico_background="@drawable/username"
     app:ico_size="30"
     app:input_size="15"
+    app:input_color="#C0C0C0"
     app:input_hint="请输入用户名"
     app:is_clear="true"
     app:is_password="false"
